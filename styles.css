@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/644/458/482/facebook-and-whatsapp-messages-romantic-love-loving-couple-love-under-the-tree-mobile-wallpaper-hd-1920%C3%971080-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container {
+    text-align: center; 
+}
+input[type="text"] {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 20px; 
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.mt{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px rgb(219, 41, 86);
+    background-color:#fff ; 
+}
+
+#alphabets {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #fff; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
+#reset {
+    margin: 10px;
+    display: inline-block; 
+    padding: 12px 30px;
+    font-size: 1rem;
+    background-color: #bbff00; 
+    color: #0a0a0a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    margin-bottom: 10px; 
+    margin-right: 10px; 
+}
+
+
+#stop {
+    margin: 10px;
+    font-weight: bold;
+    display: inline-block; 
+    padding: 12px 30px;
+    font-size: 1rem;
+    background-color: #f30b58; 
+    color: #0c0404;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    margin-bottom: 10px; 
+    margin-right: 10px; 
+}
+
+
+#stop:hover, #reset:hover {
+    background-color: #0056b3; 
+}
+
+
+@media (max-width: 768px) {
+    #alphabets {
+        font-size: 3rem;
+    }
+
+    #stop, #reset {
+        padding: 10px 20px; 
+        margin-right: 0;}
+}
